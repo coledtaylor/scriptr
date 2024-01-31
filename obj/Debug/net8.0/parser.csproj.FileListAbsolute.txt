@@ -1,0 +1,14 @@
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.AssemblyInfoInputs.cache
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.AssemblyInfo.cs
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.csproj.CoreCompileInputs.cache
+C:\Users\ColeT\Code\dotnet\parser\bin\Debug\net8.0\parser.exe
+C:\Users\ColeT\Code\dotnet\parser\bin\Debug\net8.0\parser.deps.json
+C:\Users\ColeT\Code\dotnet\parser\bin\Debug\net8.0\parser.runtimeconfig.json
+C:\Users\ColeT\Code\dotnet\parser\bin\Debug\net8.0\parser.dll
+C:\Users\ColeT\Code\dotnet\parser\bin\Debug\net8.0\parser.pdb
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.dll
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\refint\parser.dll
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.pdb
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.genruntimeconfig.cache
+C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\ref\parser.dll

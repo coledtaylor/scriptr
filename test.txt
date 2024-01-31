@@ -1,0 +1,6 @@
+fun addThree(var){
+    return var + 3;
+}
+
+var = 3;
+print addThree(var);
