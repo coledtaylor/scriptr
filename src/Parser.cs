@@ -2,6 +2,7 @@ namespace Scriptr;
 
 class Parser(List<Token> tokens)
 {
+    // TODO: Get this working
     private class ParseError(Token token, string message) : Exception { }
 
     private readonly List<Token> _tokens = tokens;
