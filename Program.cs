@@ -4,7 +4,7 @@ using System.Text;
 
 using Tool;
 
-namespace Lox;
+namespace Scriptr;
 
 class Program
 {
@@ -52,15 +52,7 @@ class Program
             Console.Write("> ");
             string line = Console.ReadLine();
 
-            Scanner scanner = new(line);
-            List<Token> tokens = scanner.ScanTokens();
-
-            foreach (Token token in tokens)
-            {
-                Console.Write("[" + token.Lexeme + "]");
-            }
-
-            Console.WriteLine();
+            Run(line);
         }
     }
 
@@ -68,13 +60,18 @@ class Program
     {
         Scanner scanner = new(source);
         List<Token> tokens = scanner.ScanTokens();
+        Parser parser = new(tokens);
+        Expr expression = parser.Parse();
+
 
         if (s_hadError) return;
 
-        foreach (Token token in tokens)
-        {
-            Console.Write("[" + token.Lexeme + "]");
-        }
+        // foreach (Token token in tokens)
+        // {
+        //     Console.Write("[" + token.Lexeme + "]");
+        // }
+
+        Console.WriteLine(new AstPrinter().Print(expression));
     }
 
     public static void Error(int line, string message)

@@ -1,4 +1,4 @@
-namespace Lox;
+namespace Scriptr;
 
 public class Scanner(string source)
 {

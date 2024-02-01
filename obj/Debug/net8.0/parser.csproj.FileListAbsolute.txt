@@ -12,3 +12,4 @@ C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\refint\parser.dll
 C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.pdb
 C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.genruntimeconfig.cache
 C:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\ref\parser.dll
+c:\Users\ColeT\Code\dotnet\parser\obj\Debug\net8.0\parser.sourcelink.json

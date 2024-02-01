@@ -1,4 +1,4 @@
-namespace Lox;
+namespace Scriptr;
 
 abstract class Expr
 {

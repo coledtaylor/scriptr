@@ -1,6 +1,6 @@
 using System.Text;
 
-using Lox;
+using Scriptr;
 
 namespace Tool;
 

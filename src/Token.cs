@@ -1,4 +1,4 @@
-namespace Lox;
+namespace Scriptr;
 
 public class Token(TokenType type, string lexeme, object literal, int line)
 {
